@@ -1,27 +1,77 @@
-# React + TypeScript + Vite
+# Vite CRM Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto utiliza Vite como entorno de desarrollo para crear un CRM (Customer Relationship Management) utilizando React y React Router DOM. El CRM está diseñado para gestionar información de clientes, permitiendo agregar, editar, eliminar y visualizar clientes.
 
-Currently, two official plugins are available:
+## Instrucciones de Desarrollo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerrequisitos
 
-## Expanding the ESLint configuration
+Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Instalación
 
-- Configure the top-level `parserOptions` property like this:
+1. Clona el repositorio:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   ```bash
+   git clone https://github.com/tu-usuario/vite-project.git
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd vite-project
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+### Scripts Disponibles
+
+- **Desarrollo:** Ejecuta la aplicación en modo de desarrollo.
+
+  ```bash
+  npm run dev
+  ```
+
+  Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+
+- **Construcción:** Genera la versión de producción de la aplicación.
+
+  ```bash
+  npm run build
+  ```
+
+- **Linting:** Ejecuta ESLint para verificar y corregir problemas de linting.
+
+  ```bash
+  npm run lint
+  ```
+
+- **Vista Previa de Producción:** Mira la aplicación en modo de producción antes de implementar.
+
+  ```bash
+  npm run preview
+  ```
+
+## Tecnologías Utilizadas
+
+- [React](https://reactjs.org/): Biblioteca JavaScript para construir interfaces de usuario.
+- [React Router DOM](https://reactrouter.com/): Enrutador para aplicaciones React.
+- [Vite](https://vitejs.dev/): Herramienta de construcción rápida para aplicaciones web.
+
+## Estructura del Proyecto
+
+- `src/`: Contiene el código fuente de la aplicación.
+- `data/`: Contiene funciones para interactuar con datos de clientes.
+- `components/`: Contiene componentes reutilizables utilizados en la aplicación.
+
+## Contribuciones
+
+Siéntete libre de contribuir al proyecto. Abre problemas para informar sobre problemas o propón nuevas funciones mediante solicitudes de extracción.
+
+---
+
+¡Esperamos que disfrutes trabajando en tu proyecto CRM construido con Vite y React! ¡Buena codificación! 👩‍💻👨‍💻
