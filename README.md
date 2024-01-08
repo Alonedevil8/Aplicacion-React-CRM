@@ -2,6 +2,9 @@
 
 Este proyecto utiliza Vite como entorno de desarrollo para crear un CRM (Customer Relationship Management) utilizando React y React Router DOM. El CRM está diseñado para gestionar información de clientes, permitiendo agregar, editar, eliminar y visualizar clientes.
 
+![Screenshot_1](https://github.com/Alonedevil8/Aplicacion-React-CRM/assets/6482729/53dff656-badc-4988-9626-974037177d3c)
+
+
 ## Instrucciones de Desarrollo
 
 ### Prerrequisitos
